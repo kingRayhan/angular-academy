@@ -1,0 +1,30 @@
+{
+    "courses": [
+        {
+            "id": 1,
+            "name": "Python",
+            "description": "Python is a programming language that lets you work quickly and integrate systems more effectively. It's used for web development, data science, and much more. Python is easy to learn and has a lot of great libraries and resources to help you get started.",
+            "image": "https://cdn.pixabay.com/photo/2016/08/30/01/05/python-1665343_960_720.png",
+            "price": "Free"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "description": "JavaScript is a programming language that lets you interact with the world around you. It is used for web development, games, and much more. JavaScript is easy to learn and has a lot of great libraries and resources to help you get started.",
+            "image": "https://cdn.pixabay.com/photo/2016/08/30/01/05/javascript-1665345_960_720.png",
+            "price": "Free"
+        },
+        {
+            "id": 3,
+            "name": "C#",
+            "description": "C# is a programming language that lets you work quickly and integrate systems more effectively. It's used for web development, data science, and much more. C# is easy to learn and has a lot of great libraries and resources to help you get started.",
+            "image": "https://cdn.pixabay.com/photo/2016/08/30/01/05/c-1665346_960_720.png",
+            "price": "Free"
+        },
+        {
+            "id": 4,
+            "name": "C++",
+            "description": "C++ is a programming language that lets you work quickly and integrate systems more effectively. It's used for web development, data science, and much more. C++ is easy to learn and has a lot of great libraries and resources to help you get started."
+        }
+    ]
+}

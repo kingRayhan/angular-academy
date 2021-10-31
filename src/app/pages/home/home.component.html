@@ -1,0 +1,10 @@
+<div>
+  <ng-container *ngFor="let course of courses">
+    <div class="mb-10">
+      <h1>
+        <a [routerLink]="['courses', course.id]">{{ course.name }}</a>
+      </h1>
+      <p>{{ course.description }}</p>
+    </div>
+  </ng-container>
+</div>
