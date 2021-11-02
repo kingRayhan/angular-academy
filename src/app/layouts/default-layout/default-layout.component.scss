@@ -2,3 +2,7 @@ main,
 app-footer {
   @apply max-w-6xl mx-auto;
 }
+
+main {
+  @apply my-8 px-4 lg:px-0;
+}

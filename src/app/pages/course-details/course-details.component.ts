@@ -18,19 +18,5 @@ export class CourseDetailsComponent implements OnInit {
 
   public course: Course;
 
-  private getCourse(id: string) {
-    this.http.get(`${environment.api}courses/${id}`).subscribe((data: any) => {
-      this.course = data as Course;
-    });
-  }
-
-  public goToStream(): void {
-    this.router.navigate(['/courses', this.course.id, 'stream']);
-  }
-
-  ngOnInit(): void {
-    this.activatedRoute.params.subscribe((params) => {
-      this.getCourse(params.id);
-    });
-  }
+  public ngOnInit(): void {}
 }

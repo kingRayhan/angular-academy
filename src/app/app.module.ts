@@ -12,6 +12,8 @@ import { DefaultLayoutComponent } from './layouts/default-layout/default-layout.
 import { NavbarComponent } from './ui/navbar/navbar.component';
 import { FooterComponent } from './ui/footer/footer.component';
 import { HttpClientModule } from '@angular/common/http';
+import { CourseCardComponent } from './ui/course-card/course-card.component';
+import { HeroComponent } from './ui/hero/hero.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { HttpClientModule } from '@angular/common/http';
     DefaultLayoutComponent,
     NavbarComponent,
     FooterComponent,
+    CourseCardComponent,
+    HeroComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, HttpClientModule],
   providers: [],

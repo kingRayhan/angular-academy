@@ -1,7 +1,8 @@
 export interface Course {
   id: number;
-  name: string;
-  description: string;
-  image: string;
-  price: string;
+  title: string;
+  short_description: string;
+  body: string;
+  released_at: string;
+  thumbnail: string;
 }
